@@ -15,9 +15,6 @@ export const initialState = {
           ...state,
           basket: [...state.basket, action.item],
         };
-      
-     
-  
       case 'REMOVE_FROM_BASKET':
         const index = state.basket.findIndex(
         

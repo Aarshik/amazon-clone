@@ -27,7 +27,7 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
                     {Array(rating)
                     .fill()
                     .map((_, i) => (
-                        <p>🌟</p>
+                        <p>⭐</p>
                     ))}
                 </div>
                 {!hideButton && (
@@ -38,4 +38,4 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
     )
 }
 
-export default CheckoutProduct 
+export default CheckoutProduct;

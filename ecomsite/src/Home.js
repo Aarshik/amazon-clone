@@ -15,7 +15,7 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="MSI Gaming GL65 Leopard , Intel 9th Gen. i7-9750H, 15.6 FHD Gaming Laptop (8GB/512GB NVMe SSD/Windows 10 Home/Nvidia GTX 1650/ Black/2.3Kg)"
+            title="MSI Gaming GL65 Leopard , Intel 9th Gen. i7-9750H, 15.6 FHD Gaming Laptop Home/Nvidia GTX 1650/ Black/2.3Kg)"
             price={800}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/81cBdLyWiGL._SL1500_.jpg"
@@ -31,7 +31,7 @@ function Home() {
         </div>
 
         <div className="home__row">
-        <Product
+        <Product  
             id="4903850"
             title="Sony WH-1000XM4 Industry Leading Wireless Noise Cancelling Headphones"
             price={199.99}
@@ -41,7 +41,7 @@ function Home() {
         <Product
             id="49538094"
             title="OnePlus 8T 5G (Aquamarine Green, 12GB RAM, 256GB Storage)"
-            price={619.99}
+            price={619.99 }
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/61WEXquocyL._SL1500_.jpg"
           />
